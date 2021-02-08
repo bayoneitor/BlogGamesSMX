@@ -1,0 +1,80 @@
+body {
+    background-image: url(../img/fondo.png);
+}
+
+section {
+    width: 80%;
+    height: auto;
+    background-color: #9785ffa1;
+    box-shadow: 0 0 15px #ccc;
+    margin-right: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.row {
+    padding: 0 50px;
+    padding-bottom: 20px;
+}
+
+aside {
+    width: 210px;
+    height: 350px;
+    background-color: blue;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.content {
+    padding: 0 40px 60px 40px;
+    text-align: justify;
+}
+
+.autor {
+    color: grey;
+    float: right;
+    padding-right: 40px;
+}
+
+.autor span {
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: right;
+}
+
+.autor_comment .author {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.autor_comment .date {
+    font-size: 14px;
+    color: gray;
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.479);
+}
+
+.center {
+    padding: 20px 20px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.comment_post {
+    margin: auto;
+}
+
+.comment_post .weight {
+    font-weight: 600;
+}

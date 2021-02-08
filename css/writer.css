@@ -1,0 +1,155 @@
+body {
+    background-image: url(../img/fondo.png);
+}
+
+.new-post .atras {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #6351ce;
+    border-bottom: 2px solid #6351ce;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.new-post .atras:hover {
+    border-top: 2px solid #372b7a;
+    border-bottom: 2px solid #372b7a;
+}
+
+.new-post .atras span {
+    letter-spacing: 1px;
+}
+
+.new-post {
+    background-image: url(../img/fondo-d.png);
+    max-width: 800px;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    /*padding: 40px;*/
+}
+
+.new-post {
+    -webkit-box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.new-post h2 {
+    margin: 0 0 28px 0;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.new-post .choose {
+    background: #6351ce;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.new-post .choose a {
+    color: #FFF;
+    padding-left: 20px;
+}
+
+.new-post .choose:hover {
+    background: #372b7a;
+}
+
+.new-post input[type="text"],
+.new-post input[type="password"],
+.new-post input[type="email"],
+.new-post textarea,
+.new-post select,
+.new-post .label {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #6351ce;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal;
+    transition: all .5s ease;
+}
+
+.new-post input[type="text"]:focus,
+.new-post input[type="password"]:focus,
+.new-post input[type="email"]:focus,
+.new-post textarea:focus,
+.new-post select:focus,
+.new-post .label:focus {
+    border-bottom: 4px solid #372b7a;
+}
+
+.new-post input[type="submit"] {
+    background: #6351ce;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.new-post input[type="submit"]:hover {
+    background: #372b7a;
+}
+
+.new-post .formulario {
+    display: none;
+    padding: 40px;
+}
+
+.new-post .formulario:nth-child(2) {
+    display: block;
+}
+
+label {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}

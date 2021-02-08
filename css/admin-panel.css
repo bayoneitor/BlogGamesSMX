@@ -1,0 +1,237 @@
+body {
+    background-image: url(../img/fondo.png);
+}
+
+.admin-panel .atras {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #6351ce;
+    border-bottom: 2px solid #6351ce;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.admin-panel .atras:hover {
+    border-top: 2px solid #372b7a;
+    border-bottom: 2px solid #372b7a;
+}
+
+.admin-panel .atras span {
+    letter-spacing: 1px;
+}
+
+.admin-panel {
+    background-image: url(../img/fondo-d.png);
+    max-width: 400px;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    /*padding: 40px;*/
+}
+
+.admin-panel {
+    background-image: url(../img/fondo-d.png);
+    max-width: 400px;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    /*padding: 40px;*/
+}
+
+.admin-panel {
+    -webkit-box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.admin-panel h2 {
+    margin: 0 0 28px 0;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.admin-panel .choose {
+    background: #6351ce;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.admin-panel .choose a {
+    color: #FFF;
+    padding-left: 20px;
+}
+
+.admin-panel .choose:hover {
+    background: #372b7a;
+}
+
+.admin-panel input[type="text"],
+.admin-panel input[type="password"],
+.admin-panel input[type="email"],
+.admin-panel textarea,
+.admin-panel select {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 4px solid #6351ce;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal;
+    transition: all .5s ease;
+}
+
+.admin-panel input[type="text"]:focus,
+.admin-panel input[type="password"]:focus,
+.admin-panel input[type="email"]:focus,
+.admin-panel textarea:focus,
+.admin-panel select:focus {
+    border-bottom: 4px solid #372b7a;
+}
+
+.admin-panel input[type="submit"] {
+    background: #6351ce;
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.admin-panel input[type="submit"]:hover {
+    background: #372b7a;
+}
+
+.admin-panel .formulario {
+    display: none;
+    padding: 40px;
+}
+
+.admin-panel .formulario:nth-child(2) {
+    display: block;
+}
+
+
+/*TABLA DE USUARIOS*/
+
+.admin-panel-2 .atras {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    border-top: 2px solid #6351ce;
+    border-bottom: 2px solid #6351ce;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.admin-panel-2 .atras:hover {
+    border-top: 2px solid #372b7a;
+    border-bottom: 2px solid #372b7a;
+}
+
+.admin-panel-2 .atras span {
+    letter-spacing: 1px;
+}
+
+.admin-panel-2 {
+    background-image: url(../img/fondo-d.png);
+    max-width: 1200px;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.admin-panel-2 {
+    -webkit-box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.admin-panel-2 h2 {
+    margin: 0 0 28px 0;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.admin-panel-2 .formulario {
+    display: none;
+    padding: 40px;
+}
+
+.admin-panel-2 .formulario:nth-child(2) {
+    display: block;
+}
+
+.th {
+    font-weight: 600;
+}
+
+thead {
+    background-color: #6451ce4f;
+}
+
+tbody {
+    background-color: #dbdbdb4f;
+}
+
+tfoot {
+    background-color: #6451ce4f;
+}

@@ -1,0 +1,68 @@
+body {
+    background-image: url(../img/fondo.png);
+}
+
+.admin-panel-2 {
+    background-image: url(../img/fondo-d-ban.png);
+    max-width: 1200px;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 48px auto;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+.admin-panel-2 {
+    -webkit-box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.admin-panel-2 h2 {
+    margin: 0 0 28px 0;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.admin-panel-2 .formulario {
+    display: none;
+    padding: 40px;
+    text-align: center;
+}
+
+.admin-panel-2 .formulario:nth-child(2) {
+    display: block;
+}
+
+b {
+    font-weight: 600;
+}
+
+.admin-panel-2 .choose {
+    background: rgb(73, 0, 0);
+    color: #FFF;
+    width: 50%;
+    border: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.admin-panel-2 .choose a {
+    color: #FFF;
+    padding-left: 20px;
+}
+
+.admin-panel-2 .choose:hover {
+    background: rgb(44, 0, 0);
+}
